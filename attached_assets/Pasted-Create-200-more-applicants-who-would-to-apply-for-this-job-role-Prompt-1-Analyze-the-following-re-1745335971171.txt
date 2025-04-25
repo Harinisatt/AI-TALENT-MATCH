@@ -1,0 +1,68 @@
+Create 200 more applicants who would to apply for this job role.
+Prompt 1:
+"Analyze the following recruiting data (provide the data here or describe its columns and format). Identify the key metrics that would be most informative for understanding our hiring process and candidate pool. Consider metrics like:
+	•	Number of applications per role
+	•	Source of applications (e.g., LinkedIn, referrals, job boards)
+	•	Time to hire for different roles
+	•	Candidate progress through the hiring stages (e.g., applied, screened, interviewed, offered, hired)
+	•	Reasons for candidate rejection (if available)
+	•	Diversity metrics (if available and anonymized appropriately)"
+Prompt 2:
+"Based on the identified key metrics, suggest the most appropriate types of data visualizations to effectively communicate these insights. For example, should we use bar charts, pie charts, line graphs, heatmaps, or other types? Explain your reasoning for each suggestion."
+Phase 2: Generating Specific Visualizations
+Once the agent understands the data and visualization types, we can ask it to generate them.
+Prompt 3 (Example - Applications per Role):
+"Generate a visually appealing bar chart showing the 'Number of Applications' for each 'Job Role'. Ensure the chart has clear labels for the axes and bars, a descriptive title ('Applications per Job Role'), and uses an attractive color scheme relevant to recruitment (e.g., professional blues and greens)."
+Prompt 4 (Example - Source of Applications):
+"Create a donut chart or a visually engaging stacked bar chart illustrating the 'Source of Applications' and the corresponding number or percentage of applications from each source. Use distinct and easily identifiable colors for each source. Add a clear legend and title ('Application Sources'). Consider using subtle animations or transitions if the Replit environment supports it."
+Prompt 5 (Example - Time to Hire):
+"Visualize the 'Time to Hire (in days)' for different 'Job Roles' using a horizontal bar chart or a line graph (if we have time series data). Highlight any significant outliers or trends. Use a color scheme that indicates efficiency (e.g., shorter times in green, longer times in red/orange). Add tooltips to show the exact time to hire for each role."
+Prompt 6 (Example - Candidate Progress):
+"Design a funnel chart or a series of connected bar charts to represent the 'Candidate Progress' through the different 'Hiring Stages'. Clearly show the number of candidates at each stage and the conversion rates between stages. Use icons or subtle visual cues to represent each stage (e.g., a document icon for 'Applied', a magnifying glass for 'Screened', a speech bubble for 'Interviewed', a handshake for 'Offered', a person icon with a checkmark for 'Hired')."
+Prompt 7 (Example - Reasons for Rejection):
+"Create a visually engaging word cloud or a bar chart to display the most frequent 'Reasons for Candidate Rejection'. For the bar chart, order the reasons by frequency and use a contrasting color scheme. For the word cloud, ensure the size of the words corresponds to their frequency and use a professional font."
+Prompt 8 (Example - Diversity Metrics):
+"Important: Ensure privacy and anonymization if visualizing diversity data. Generate a set of charts (e.g., pie charts or stacked bar charts) to represent the distribution of candidates across different demographic categories (e.g., gender, ethnicity - if ethically and legally permissible and anonymized). Use inclusive and neutral color palettes. Focus on presenting the data factually without making any interpretations or judgments."
+Phase 3: Enhancing Visual Appeal
+Now, let's guide the agent to make the visualizations more attractive.
+Prompt 9 (Overall Aesthetics):
+"Ensure all visualizations have a clean, modern, and professional aesthetic. Use appropriate font sizes and styles for readability. Maintain consistent branding (if applicable) in terms of colors and overall visual style."
+Prompt 10 (Interactivity):
+"If possible within the Replit environment, add interactive elements to the visualizations. For example, allow users to hover over bars or segments to see exact values, or include filters to view data for specific time periods or departments."
+Prompt 11 (Storytelling):
+"Arrange the visualizations in a logical flow that tells a story about our recruiting process. Use titles and brief descriptions to highlight key takeaways from each visualization."
+Special Icons and Images to Include:
+Think about visual elements that are universally associated with recruitment, talent, and growth.
+	•	People/Team Icons:
+	◦	👤 Single silhouette: Representing a candidate or an application.
+	◦	👥 Multiple silhouettes: Representing a pool of candidates or a team.
+	◦	🤝 Handshake: Representing an offer or a successful hire.
+	◦	<0xF0><0x9F><0xA7><0xBD> Puzzle pieces fitting together: Representing the right candidate for the right role.
+	◦	🌱 Growing plant/arrow pointing upwards: Representing growth in applications or successful hires.
+	•	Process/Workflow Icons:
+	◦	📄 Document icon: Representing an application or a resume.
+	◦	🔍 Magnifying glass: Representing screening or searching for candidates.
+	◦	🗣️ Speech bubble: Representing an interview or communication.
+	◦	⏱️ Clock/hourglass: Representing time to hire.
+	◦	➡️ Arrows: Representing the flow through hiring stages.
+	◦	📊 Funnel icon: Specifically for the candidate progress visualization.
+	•	Source/Channel Icons (Use recognizable logos or generic symbols):
+	◦	<0xF0><0x9F><0x93><0x81> Globe/network icon: Representing online job boards.
+	◦	🔗 Link icon: Representing LinkedIn or other professional networks.
+	◦	🧑‍🤝‍🧑 Two people icon: Representing referrals.
+	◦	🏢 Building icon: Representing the company website.
+	•	Feedback/Evaluation Icons:
+	◦	👍 Thumbs up/✔️ Checkmark: Representing successful progression.
+	◦	👎 Thumbs down/❌ Cross: Representing rejection (use cautiously and subtly).
+	◦	⭐ Star/rating icons: If you have candidate ratings.
+	•	General Enhancement Images/Elements:
+	◦	Subtle background patterns or gradients in professional colors.
+	◦	Clean and modern fonts.
+	◦	Well-placed and informative labels and titles.
+	◦	Consistent color palettes across all visualizations.
+Prompting for Icons and Images:
+You can instruct the agent to incorporate these:
+Prompt 12 (Icons):
+"Enhance the 'Candidate Progress' visualization by using relevant icons for each stage. For example, use a document icon for 'Applied', a magnifying glass for 'Screened', a speech bubble for 'Interviewed', a handshake for 'Offered', and a person icon with a checkmark for 'Hired'. Ensure the icons are visually clear and appropriately sized."
+Prompt 13 (General Visuals):
+"Apply a subtle gradient background to all charts using professional blue and green tones. Use a clean and readable sans-serif font for all labels and titles. Ensure consistent color coding is used where applicable (e.g., different application sources should have distinct colors across different charts)."
